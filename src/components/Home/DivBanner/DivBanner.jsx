@@ -6,13 +6,12 @@ import 'swiper/css/pagination';
 
 import { Pagination } from 'swiper/modules';
 
-import banner1 from '../../../assets/banner/banner-1.jpg'
-import banner2 from '../../../assets/banner/banner2.jpg'
-import banner3 from '../../../assets/banner/banner3.jpg'
+import banner1 from '../../../assets/banner/daniele-franchi-GbAEJUJKJ88-unsplash.jpg'
+import banner4 from '../../../assets/banner/5152885.jpg'
 
 const DivBanner = () => {
     return (
-       <div >
+       <div className=' ' >
         <Swiper
         spaceBetween={30}
         pagination={{
@@ -22,8 +21,8 @@ const DivBanner = () => {
         className="mySwiper"
       >
         <SwiperSlide><img src={banner1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={banner2} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={banner3} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner4} alt="" /></SwiperSlide>
+       
         
       </Swiper>
         </div>
