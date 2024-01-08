@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/P922VP2/296673-2598x1648.webp",
+      "title": " Industry Solutions",
+      "details": "Each industry is complex and constantly changing. With our industry solutions, you can meet unique business needs and achieve a competitive edge."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/c6m770q/296681-2598x1648.webp",
+      "title": " Industry Solutions",
+      "details": "Whether you’re transitioning to the cloud or creating new business models, SAP has unique offerings to help you transform without risk."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/YDx2qt6/296686-2598x1648.webp",
+      "title": " Industry Solutions",
+      "details": "With in-depth expertise and extensive project experience, SAP partners help you get the most from your software while enabling a smooth deployment."
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/SJBt6bf/296688-2598x1648.webp",
+      "title": " Industry Solutions",
+      "details":"SAP has your sustainability initiatives covered with solutions for ESG reporting, climate action, the circular economy, and social responsibility."
+    }
+  ]
