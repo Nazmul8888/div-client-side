@@ -6,8 +6,8 @@ import 'swiper/css/pagination';
 
 import { Pagination } from 'swiper/modules';
 
-import banner1 from '../../../assets/banner/daniele-franchi-GbAEJUJKJ88-unsplash.jpg'
-import banner4 from '../../../assets/banner/5152885.jpg'
+import banner1 from '../../../assets/banner/HomepageHero_Oct22_4.jpg'
+// import banner4 from '../../../assets/banner/5152885.jpg'
 
 const DivBanner = () => {
     return (
@@ -21,7 +21,7 @@ const DivBanner = () => {
         className="mySwiper"
       >
         <SwiperSlide><img src={banner1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={banner4} alt="" /></SwiperSlide>
+        {/* <SwiperSlide><img src={banner4} alt="" /></SwiperSlide> */}
        
         
       </Swiper>
