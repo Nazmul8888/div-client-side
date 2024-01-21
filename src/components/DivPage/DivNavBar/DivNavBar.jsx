@@ -5,6 +5,8 @@ import logo from '../../../assets/logo/logo.png'
 
 const DivNavBar = () => {
     const navLinks = <>
+
+     <li><Link to='/'>HOME</Link></li>
      <li><Link to='/INDUSTRIES'>INDUSTRIES</Link></li>
      <li><Link to='/PRODUCTS'>PRODUCTS</Link></li>
      <li><Link to='/SERVICES'>SERVICES</Link></li>

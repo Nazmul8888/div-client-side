@@ -5,6 +5,8 @@ import {
 import Layout from "../components/Layout/Layout";
 import Home from "../components/Home/Home";
 import Industries from "../components/SharedPage/Industries/Industries";
+import Products from "../components/SharedPage/Products/Products";
+import Services from "../components/SharedPage/Services/Services";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -12,7 +14,9 @@ import Industries from "../components/SharedPage/Industries/Industries";
       children:[
        {path:'/', element: <Home></Home>},
 
-       {path:'INDUSTRIES', element:<Industries></Industries>}
+       {path:'INDUSTRIES', element:<Industries></Industries>},
+       {path:'PRODUCTS', element: <Products></Products>},
+       {path: 'SERVICES', element: <Services></Services>}
       ]
     },
   ]);
