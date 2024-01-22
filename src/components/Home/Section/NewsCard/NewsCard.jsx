@@ -18,6 +18,7 @@ const NewsCard = () => {
             news?.map(item=><Card key={item._id} item={item}></Card>)
           }  
         </div>
+        
         </div>
     );
 };

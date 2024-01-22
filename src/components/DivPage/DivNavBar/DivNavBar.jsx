@@ -13,7 +13,11 @@ const DivNavBar = () => {
      <li><Link to='/NEWSROOM'>NEWSROOM</Link></li>
      <li><Link to='/CAREER'>CAREER</Link></li>
      <li><Link to='/CONTACT'>CONTACT</Link></li>
+
+     
+     
     </>
+    
     return (
         
          <div>
@@ -40,6 +44,7 @@ const DivNavBar = () => {
   <div className="navbar-end">
   <button className="btn  btn-ghost mr-32">Explore</button>
   </div>
+  
 </div> 
        
        </div>
