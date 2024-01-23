@@ -8,6 +8,8 @@ import Industries from "../components/SharedPage/Industries/Industries";
 import Products from "../components/SharedPage/Products/Products";
 import Services from "../components/SharedPage/Services/Services";
 import NewsDetails from "../components/Home/Section/NewsCard/NewsDetails";
+import NewsRoom from "../components/SharedPage/NewsRoom/NewsRoom";
+import Contact from "../components/SharedPage/Contact/Contact";
   export const router = createBrowserRouter([
     {
       path: "/",
@@ -21,6 +23,14 @@ import NewsDetails from "../components/Home/Section/NewsCard/NewsDetails";
        {
         path: 'NewsDetails',
         element: <NewsDetails></NewsDetails>,
+       },
+       {
+        path:'NEWSROOM',
+        element: <NewsRoom></NewsRoom>
+       },
+       {
+        path: 'CONTACT',
+        element: <Contact></Contact>
        }
       ]
     },
