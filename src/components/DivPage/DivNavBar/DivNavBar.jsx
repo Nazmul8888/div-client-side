@@ -21,7 +21,7 @@ const DivNavBar = () => {
     return (
         
          <div>
-            <div className="navbar bg-[#A6D0DD]">
+            <div className="navbar  bg-white">
            
   <div className="navbar-start">
     <div className="dropdown">
@@ -37,6 +37,8 @@ const DivNavBar = () => {
     <a className=" text-xl"></a>
   </div>
   <div className="navbar-center hidden lg:flex">
+
+    
     <ul className="menu menu-horizontal px-1">
       {navLinks}
     </ul>
@@ -46,6 +48,7 @@ const DivNavBar = () => {
   </div>
   
 </div> 
+
        
        </div>
     );

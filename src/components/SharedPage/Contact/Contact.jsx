@@ -2,7 +2,9 @@
 
 const Contact = () => {
     return (
-        <div>
+        <div >
+           
+            {/* 1st fast */}
            <div className=" flex justify-between items-center">
             <div>
                 <img src="https://i.ibb.co/xfDVBxL/aboutus-600x432.jpg" alt="" />
@@ -17,6 +19,60 @@ const Contact = () => {
             <br />
             <br />
             <br />
+
+            <div className=" bg-[#65B741]">
+            <h1 className=" text-[#AAA9A9]  font-bold   ml-72  text-6xl">Quality Practices</h1>
+            <br />
+            <br />
+            <div className=" flex  justify-evenly">
+                <div>
+                    <img src="https://i.ibb.co/zxXh5Nz/cmmi5.png" alt="" />
+                </div>
+                <div>
+                    <p className=" ring-2 ring-red-800 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900  text-[#333333]   mr-48" >DataSoft Systems Bangladesh Limited is the first software <br /> company in Bangladesh to be documented as a CMMI Level <br /> 5 Software Development company. Only **377 companies <br /> across the world has been recognized as CMMI level 5 <br /> companies. Accredited as a CMMI level 3 company since <br /> 2009, DataSoft has always been ahead of its game in <br /> comparison to other local firms. On April 24 2014, DataSoft <br /> started its journey as a CMMI Level 5 company, and with <br /> that it introduced a new era in the IT Industry of the nation.</p>
+                   
+                  
+                </div>
+                  
+            </div>
+            
+
+
+
+
+            <br />
+            <div className=" flex  justify-evenly">
+                <div>
+                    <img  src="https://i.ibb.co/hsztZbM/Superbrands.png" alt="" />
+                </div>
+                <div>
+                    <p className=" ring-2 ring-purple-800 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900 ">DataSoft Systems Bangladesh Limited is the first software <br /> company in Bangladesh to be documented as a CMMI Level <br /> 5 Software Development company. Only **377 companies <br /> across the world has been recognized as CMMI level 5 <br /> companies. Accredited as a CMMI level 3 company since <br /> 2009, DataSoft has always been ahead of its game in <br /> comparison to other local firms. On April 24 2014, DataSoft <br /> started its journey as a CMMI Level 5 company, and with <br /> that it introduced a new era in the IT Industry of the nation.</p>
+                    <hr />
+                    
+                </div>
+               
+            </div>
+            <br />
+            <div className=" flex  justify-evenly">
+                <div>
+                    <img  src="https://i.ibb.co/hXFGyKG/ISO-logo.png" alt="" />
+                </div>
+                <div>
+                    <p className=" ring-2 ring-purple-800 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900  ml-10">DataSoft Systems Bangladesh Limited is the first software <br /> company in Bangladesh to be documented as a CMMI Level <br /> 5 Software Development company. Only **377 companies <br /> across the world has been recognized as CMMI level 5 <br /> companies. Accredited as a CMMI level 3 company since <br /> 2009, DataSoft has always been ahead of its game in <br /> comparison to other local firms. On April 24 2014, DataSoft <br /> started its journey as a CMMI Level 5 company, and with <br /> that it introduced a new era in the IT Industry of the nation.</p>
+                    <hr />
+                </div>
+               
+            </div>
+            
+
+            <br />
+            <br />
+            <br />
+            </div>
+
+         {/* second part */}
+
+
             <div className=" flex  justify-evenly items-center">
                 <div className="">
                     <h1 className=" text-4xl text-[#1D75BB] font-bold ml-40 ">END TO END QUALITY <br /> MANAGEMENT</h1>

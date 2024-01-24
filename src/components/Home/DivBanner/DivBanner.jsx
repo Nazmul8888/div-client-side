@@ -1,18 +1,18 @@
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css';
+// import 'swiper/css/pagination';
 
 
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
 
-import banner1 from '../../../assets/banner/HomepageHero_Oct22_4.jpg'
-// import banner4 from '../../../assets/banner/5152885.jpg'
+// import banner1 from '../../../assets/banner/79731568097599.5b50bca477735.jpg'
+// // import banner4 from '../../../assets/banner/5152885.jpg'
 
 const DivBanner = () => {
     return (
-       <div className=' ' >
-        <Swiper
+       <div className='  py-10' >
+        {/* <Swiper
         spaceBetween={30}
         pagination={{
           clickable: true,
@@ -20,11 +20,28 @@ const DivBanner = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={banner1} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={banner1} alt="" /></SwiperSlide> */}
         {/* <SwiperSlide><img src={banner4} alt="" /></SwiperSlide> */}
        
         
-      </Swiper>
+      {/* </Swiper> */}
+
+
+{/* second option */}
+
+
+<div className="hero min-h-[60vh]" style={{backgroundImage: 'url(https://i.ibb.co/hyLRrSq/ai-site-helping-with-software-production.jpg)'}}>
+  <div className="hero-overlay bg-opacity-60"></div>
+  <div className="hero-content text-center text-neutral-content">
+    <div className="max-w-md">
+      <h1 className="mb-5 text-4xl font-bold text-[#FE7A36]">Your Vision, Our Code</h1>
+      <p className="mb-5  text-white">Empowering businesses with cutting-edge web solutions, our web development company stands as a beacon of digital innovation. Crafting Digital Experiences, Building Future Success,.</p>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
+
+
         </div>
         
     );
