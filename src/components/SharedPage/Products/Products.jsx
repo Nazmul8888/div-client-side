@@ -1,3 +1,4 @@
+import LeftSide from '../LeftSide/LeftSide';
 import './product.css'
 
 const Products = () => {
@@ -9,6 +10,7 @@ const Products = () => {
             <div className=" flex justify-center mr-40 py-10">
                 <p>We have a wide spectrum of products to cater your specific business needs.  Being a highly process <br /> driven company, we undergo  robust quality testing to ensure flawless, round the clock,  and world- <br />class performance. All our products come with strong post sales services and client supports.</p>
             </div>
+            
             <div className=" flex  gap-20 justify-center text-[#0A6DB8] py-10  mr-64 roboto-regular  ">
                 <div>
                     <ul>
@@ -78,13 +80,13 @@ const Products = () => {
             <div className=" flex  gap-20 justify-center text-[#0A6DB8] py-10   mr-96 roboto-regular  ">
                 <div>
                     <ul>
-                    <h1 className=" uppercase text-2xl  font-bold ">PORT & LOGISTICS</h1>
-                    <hr />
+                    <h1 className=" uppercase text-2xl  font-bold  ml-96 ">PORT & LOGISTICS</h1>
+                    
                     <br />
-                    <li className=" tex-css ">
+                    <li className=" tex-css ml-96 ">
                         <a href="">TIMS</a>
                     </li>
-                    <li className=" tex-css ">
+                    <li className=" tex-css ml-96 ">
                         <a href="">Port Management</a>
                     </li>
                     
@@ -105,6 +107,7 @@ const Products = () => {
                     
                     </ul>
                 </div>
+                <LeftSide></LeftSide>
             </div>
         </div>
     );

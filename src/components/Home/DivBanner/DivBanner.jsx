@@ -35,7 +35,7 @@ const DivBanner = () => {
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
       <h1 className="mb-5 text-4xl font-bold text-[#FE7A36]">Your Vision, Our Code</h1>
-      <p className="mb-5  text-white">Empowering businesses with cutting-edge web solutions, our web development company stands as a beacon of digital innovation. Crafting Digital Experiences, Building Future Success,.</p>
+      <p className="mb-5  text-2xl text-white">Divine Innovations, Limitless Solutions</p>
       <button className="btn btn-primary">Get Started</button>
     </div>
   </div>

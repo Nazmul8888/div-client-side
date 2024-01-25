@@ -1,6 +1,7 @@
 
 
 import img1 from '../../../assets/banner/Accelerating-Economy.png'
+import LeftSide from '../LeftSide/LeftSide';
 // import img2 from '../../../assets/ind/CMMI-Level-5-1024x324.png'
 // import img3 from '../../../assets/ind/empowering.jpg'
 // import img4 from '../../../assets/ind/Smarter-Tomorrow-1024x324.png'
@@ -65,6 +66,7 @@ const Industries = () => {
                        
                     </ul>
                 </div>
+                <LeftSide></LeftSide>
                 </div>
                 {/* <div className='w-[250px]   mr-72'>
                     <img src={img2} alt="" />
